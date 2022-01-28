@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /*Imatge de fons de la página*/
+    background-image: url('../img/fons.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    padding-left: 10px;
+    background-image: url('../img/fons_pelis.png');
+}
+
+/*Propietats del contenidor*/
+#detall{
+    text-align: left;
+    padding-left: 40px;
+}
+
+/*Propietats del titol de la pàgina*/
+h1{
+    font:bold italic 1.4rem Arial;
+    color: white;
+    background: url('../img/palomita.png') no-repeat 7px 7px;
+    padding: 10px 0px 30px 40px;
+    background-color: white;
+    text-align: left;
+}
+
+/*Etiqueta principal*/
+article{
+    text-align: left;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+
+/*Propietats del titol de la pel.licula*/
+article .columna-1 h2{
+    padding: 0px;
+    padding-top: 10px;
+    margin: 3px;
+    font: bold 1.2rem Arial;
+    color: #083256;
+}
+
+/*Propietats de la descripció pel.licula*/
+article p{
+    padding-top: 10px;
+    border-top: 1px dotted #ccc;
+    font: normal 0.8rem Arial;
+    color: #083256;
+}
+/*Propietats dels enllaços*/
+article a{
+    color:blue
+}
+article a:hover{
+    color:orange
+}
+article .columna-1{
+    padding-right: 10px;
+}
+
+article .columna-2{
+    overflow: hidden;
+}
+
+dl{
+    display: flex;
+    flex-flow: row wrap;
+    font:normal 0.9rem Arial;
+}
+dt{
+    flex-basis: 20%;
+    padding: 10px 4px 2px 4px;
+    text-align: left;
+    font-weight: bold;
+}
+dd{
+    flex-basis: 80%;
+    margin: 0;
+    padding: 10px 4px 2px 4px;
+}
+.pagina-web{
+    border: solid 1px orange;
+    background-color: #fffabf;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #083256;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+}
